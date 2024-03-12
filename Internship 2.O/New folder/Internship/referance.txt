@@ -1,0 +1,108 @@
+<ul class="nav col-4 my-2 pt-2 justify-content-lg-end my-md-0 text-small">
+          <li>
+            <div class="text-end">
+              <button type="button" class="btn btn-light text-dark me-2"
+                onclick="window.location.href = 'login.html';">Login</button>
+              <button type="button" class="btn btn-primary"
+                onclick="window.location.href = 'sign-up.html';">Sign-up</button>
+            </div>
+          </li>
+        </ul>
+
+
+<div class="container d-flex flex-wrap">
+      <ul class="nav me-auto">
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About</a></li>
+      </ul>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Login</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Sign up</a></li>
+      </ul>
+    </div>
+
+
+
+
+Old Code 
+
+<header>
+    <div class="px-3 py-1" style="background-color: #C51605;">
+      <div class="container">
+        <ul class="nav col-8  my-2 justify-content-lg-start my-md-0 text-small">
+          <li>
+            <a href="index.html" class="nav-link text-dark">
+              <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#home"></use>
+                </svg> -->
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="Registration.html" class="nav-link text-white">
+              <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#speedometer2"></use>
+                </svg> -->
+              Registration
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link text-white">
+              <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#test"></use>
+                </svg> -->
+              Test
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link text-white">
+              <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#about"></use>
+                </svg> -->
+              About
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link text-white">
+              <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#contact us"></use>
+                </svg> -->
+              Contact Us
+            </a>
+          </li>
+          <li class="justify-content-end">
+            <div class="text-end">
+              <button type="button" class="btn btn-light text-dark me-2"
+                onclick="window.location.href = 'login.html';">Login</button>
+              <button type="button" class="btn btn-primary"
+                onclick="window.location.href = 'sign-up.html';">Sign-up</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header> 
+
+
+
+
+***************************************************************
+<div class="container mt-5 pb-5 pt-5" style="background-color: #CECE5A; border-radius: 20px;">
+        <div class="row">
+            <div class="offset-md-3 col-md-6">
+                <input type="search" class="from-control" id="search" placeholder="Search Id...">
+
+            </div>
+        </div>
+        <h3 id="error" class="text-center mt-3"></h3>
+        <div class="row">
+            <div class="offset-md-1 col-md-10">
+                <table class="table table-bordered border-primary table-hover mt-5 text-capitalize" id="mytable">
+
+                </table>
+            </div>
+        </div>
+    </div>
